@@ -1,0 +1,21 @@
+<script>
+  function checkAGE(age) {
+        if (age > 18) {
+        return true;
+
+    } else {
+        var res = confirm("Родители разрешили?");
+        return res;
+
+    }
+  }
+  var age = prompt("Ваш возраст: ");
+  var check = checkAGE(age);
+  if (check){
+        alert("разрашено")
+        }else{
+            alert("уходи")
+        }
+
+    
+</script>
